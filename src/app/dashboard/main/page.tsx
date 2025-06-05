@@ -1,4 +1,9 @@
 
+export const metadata = {
+    title: 'Main Page',
+    description: 'Main Page'
+}
+
 export default function MainPage() {
     return (
         <div>
