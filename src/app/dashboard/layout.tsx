@@ -1,5 +1,6 @@
 //import Image from 'next/image';
-import { Sidebar } from '../components';
+
+import { Sidebar } from '@/components';
 
 
 export default function DashboradLayout({
@@ -15,7 +16,7 @@ export default function DashboradLayout({
             selection:bg-blue-600 selection:text-white">
                 <div className="flex">
                     <Sidebar />
-                    <div className='text-slate-900 p-4'>
+                    <div className='text-slate-900 w-full'>
                         {children}
                     </div>
                 </div>
