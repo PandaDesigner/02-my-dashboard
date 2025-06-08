@@ -1,3 +1,4 @@
+export * from './components/FavoriteGrid';
 export * from './components/PokemonCard';
 export * from './components/PokemonGrid';
 export * from './interfaces/pokemon';

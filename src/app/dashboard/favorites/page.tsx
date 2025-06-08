@@ -1,4 +1,4 @@
-import { PokemonGrid } from "../../../pokemons";
+import FavoriteGrid from '@/pokemons/components/FavoriteGrid';
 import React from "react";
 export const metadata = {
     title: 'Favorites',
@@ -13,7 +13,7 @@ export default async function FavoritePage() {
             <span className="text-5xl">
                 listado de Pokemons <small>favoritos</small>
             </span>
-            <PokemonGrid pokemons={[]} />
+            <FavoriteGrid />
         </>
     );
 };
